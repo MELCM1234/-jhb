@@ -1,0 +1,60 @@
+body {
+    background-color: #dbb345;
+}
+
+.chef-profile {
+    text-align: center;
+    background-color: #dbb345;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chef-profile img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chef-profile h2 {
+    color: #ff6600;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event {
+    margin: 10px;
+    background-color: #ffcc99;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.event p {
+    color: #333333;
+}
+
+@media (max-width: 600px) {
+    .chef-profile img {
+        width: 150px;
+    }
+
+    .event img {
+        width: 100px;
+    }
+}
+
+
